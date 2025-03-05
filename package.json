@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "vite preview",
-    "build": "vite build"
+  "build": "vite build",
+  "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
   }
 }
